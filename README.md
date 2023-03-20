@@ -1,6 +1,8 @@
 # Overview
 A repository that includes the details and submission of HKU QIDS Competition (Quantitative Investment) for Team 040 Cosmos.
 
+(Update) This notebook ranked 35 out of 200+ teams, and the team is advanced to the second round.
+
 # Task
 [Link to the competition](https://www.kaggle.com/competitions/hku-qids-2023-quantitative-investment-competition/data)
 
@@ -14,4 +16,4 @@ The HKU QIDS 2023 Quantitative Investment Competition is a data science competit
 
 # Disclaimer
 
-This repository is intended for view purpose only. In this repository, the datasets for training and testing are not uploaded. However, you are encouraged to visit the [Kaggle](https://www.kaggle.com/competitions/hku-qids-2023-quantitative-investment-competition/data) for reference.
+This repository is intended for view purpose only. In this repository, the datasets for training and testing are not uploaded. However, you are encouraged to visit [Kaggle](https://www.kaggle.com/competitions/hku-qids-2023-quantitative-investment-competition/data) for reference.
