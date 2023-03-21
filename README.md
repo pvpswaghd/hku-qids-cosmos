@@ -1,7 +1,7 @@
 # Overview
 A repository that includes the details and submission of HKU QIDS Competition (Quantitative Investment) for Team 040 Cosmos.
 
-(Update) This notebook ranked 35 out of 200+ teams, and the team is advanced to the second round.
+(Update) This notebook ranked top 25 out of 200+ teams, and the team is advanced to the second round.
 
 # Task
 [Link to the competition](https://www.kaggle.com/competitions/hku-qids-2023-quantitative-investment-competition/data)
