@@ -32,7 +32,6 @@ random_state = 42
 random.seed(random_state)
 
 # Set the global variables
-all_data_storage_object = None
 model_storage_object = None
 initialized = False
 ###################################################################################################################
