@@ -2,10 +2,10 @@ import requests
 
 # ===============================================================================================================================================================
 # Some inputs that you need to adjust
-STRATEGY_PATH = r"D:\HKU QIDS Affairs\strategy.py"  # TODO: Change to your file address for strategy.py
-REQUIREMENTS_PATH = r"D:\HKU QIDS Affairs\requirements.txt"  # TODO: Change to your file address for requirement.txt
-GROUP_ID = "G000"  # TODO: Change to "G" + group_id
-ACCESS_TOKEN = "wish_you_good_luck"  # TODO: Change to access_token
+STRATEGY_PATH = r"/Users/pvpswaghd/Desktop/website/hku-qids-cosmos/round2/all_you_will_need/code_examples/strategy.py"  # TODO: Change to your file address for strategy.py
+REQUIREMENTS_PATH = r"/Users/pvpswaghd/Desktop/website/hku-qids-cosmos/round2/all_you_will_need/code_examples/requirements.txt"  # TODO: Change to your file address for requirement.txt
+GROUP_ID = "G040"  # TODO: Change to "G" + group_id
+ACCESS_TOKEN = "ykSDrKXoLc9a39Qc"  # TODO: Change to access_token
 # ===============================================================================================================================================================
 
 URL = "http://competition.hkuqids.com:8880/upload_submission"

@@ -1,18 +1,16 @@
-3# Basic packages to import (NO NEED TO ADJUST IT)
+# Basic packages to import (NO NEED TO ADJUST IT)
 import pandas as pd
     
 # The addresses for the train data inputs (NO NEED TO ADJUST IT)
-from config import Path
-historical_data_path = Path.historical_data_path
-MARKET_DATA_PATH = f'{historical_data_path}/second_round_train_market_data.csv'
-FUNDAMENTAL_DATA_PATH = f'{historical_data_path}/second_round_train_fundamental_data.csv'
-RETURN_DATA_PATH = f'{historical_data_path}/second_round_train_return_data.csv'
+# MARKET_DATA_PATH = f'{historical_data_path}/second_round_train_market_data.csv'
+# FUNDAMENTAL_DATA_PATH = f'{historical_data_path}/second_round_train_fundamental_data.csv'
+# RETURN_DATA_PATH = f'{historical_data_path}/second_round_train_return_data.csv'
 
 ###################################################################################################################
 # TODO: The following addresses are for your own test only; pls remove it before you submit your code
-# MARKET_DATA_PATH = r"D:\HKU QIDS Affairs\historical_data\second_round_train_market_data.csv"
-# FUNDAMENTAL_DATA_PATH = r"D:\HKU QIDS Affairs\historical_data\second_round_train_fundamental_data.csv"
-# RETURN_DATA_PATH = r"D:\HKU QIDS Affairs\historical_data\second_round_train_return_data.csv"
+MARKET_DATA_PATH = r"second_round_datasets/second_round_train_market_data.csv"
+FUNDAMENTAL_DATA_PATH = r"second_round_datasets/second_round_train_fundamental_data.csv"
+RETURN_DATA_PATH = r"second_round_datasets/second_round_train_return_data.csv"
 ###################################################################################################################
 
 ###################################################################################################################
@@ -413,3 +411,5 @@ def construct_talib_features(market_data_df):
     feature_df["HT_PHASOR_inphase"], feature_df["HT_PHASOR_quadrature"] = ta.HT_PHASOR(close_p)
     feature_df["HT_SINE_sine"], feature_df["HT_SINE_leadsine"] = ta.HT_SINE(close_p)
     return feature_df
+
+initialization()
